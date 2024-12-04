@@ -1,0 +1,28 @@
+/* Wrapper for the entire marquee */
+.marquee-container {
+  background-color: #ffffff; 
+  padding: 14px; 
+  border-top: 2px solid #000000; 
+  border-bottom: 2px solid #000000; 
+  margin-top: 40px;
+}
+
+
+.image_wrapper {
+  font-family: 'Manrope', sans-serif;
+  font-size: 24px;
+  color: #191919;
+  text-align: center;
+  padding: 10px 20px; 
+  border-radius: 10px;
+  transition: transform 0.3s; 
+}
+
+.star {
+  font-size: 24px; 
+  color: #000000;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  opacity: 0.5; 
+}
