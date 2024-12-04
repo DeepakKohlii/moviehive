@@ -18,6 +18,7 @@ function HeroImageScroll() {
         </div>
         <div className="image_wrapper">
           <img src={movie1} alt="Movie 4" />
+          
         </div>
         <div className="image_wrapper">
           <img src={movie1} alt="Movie 5" />
