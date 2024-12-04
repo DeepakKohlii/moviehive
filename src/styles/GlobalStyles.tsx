@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
   * {
@@ -8,15 +8,14 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #EAECF1;
+    background-image: url('https://res.cloudinary.com/dqpjkmzn7/image/upload/v1733258910/gu9y2rueismsypykbppo.jpg');
+    background-size: cover;  /* Ensures the background image covers the entire page */
+    background-position: center;  /* Centers the image */
+    background-attachment: fixed;  /* Keeps the background fixed during scrolling */
   }
 
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
+
 `;
 
 export default GlobalStyles;
